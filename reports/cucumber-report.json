@@ -1,0 +1,448 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "amtrak-ticket-booking;search-trains",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Search trains",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573876000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on Amtrak home page",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5947077399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user selects \"oneway\" trip type",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1043698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user enters \"NYP\" and \"\" as from stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2081313299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters \"WAS\" and \"\" as to stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4647155099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters \"08/05/2026\" and \"\" as departure dates",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1296283900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters \"\" as returnDate",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user selects \"2\" adults, \"2\" seniors and \"1\" children",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4900670299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user selects disability option",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:67"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1533982198,
+              "error_message": "locator.check: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for locator('#needAssistance').first()\u001b[22m\n\u001b[2m    - locator resolved to <label id=\"needAssistance\" data-disabled=\"false\" _ngcontent-ng-c942881757=\"\" class=\"ads-items-center ads-flex tw-mb-[10px] ads-cursor-pointer\">…</label>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n    at HomePage.selectDisabilityAssistance (D:\\PlaywrightAmtrak\\pages\\HomePage.js:137:36)\n    at CustomWorld.<anonymous> (D:\\PlaywrightAmtrak\\features\\step-definitions\\bookTicket.steps.js:68:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks search",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 977416600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "amtrak-ticket-booking;search-trains",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Search trains",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 628567599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on Amtrak home page",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6326994600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user selects \"roundtrip\" trip type",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9359443799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user enters \"LAX\" and \"\" as from stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582669400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters \"NYP\" and \"\" as to stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2594937700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters \"08/05/2026\" and \"\" as departure dates",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129596199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters \"08/08/2026\" as returnDate",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1100091799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user selects \"1\" adults, \"2\" seniors and \"3\" children",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5194435699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user selects disability option",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:67"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1693036098,
+              "error_message": "locator.check: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for locator('#needAssistance').first()\u001b[22m\n\u001b[2m    - locator resolved to <label id=\"needAssistance\" data-disabled=\"false\" _ngcontent-ng-c942881757=\"\" class=\"ads-items-center ads-flex tw-mb-[10px] ads-cursor-pointer\">…</label>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n    at HomePage.selectDisabilityAssistance (D:\\PlaywrightAmtrak\\pages\\HomePage.js:137:36)\n    at CustomWorld.<anonymous> (D:\\PlaywrightAmtrak\\features\\step-definitions\\bookTicket.steps.js:68:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks search",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 804353499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "amtrak-ticket-booking;search-trains",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Search trains",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 693386599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on Amtrak home page",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5891167599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user selects \"multicity\" trip type",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4854875998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user enters \"NYP\" and \"WAS\" as from stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1402331499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters \"WAS\" and \"BOS\" as to stations",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3643048100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters \"08/05/2026\" and \"08/07/2026\" as departure dates",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1847631799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters \"\" as returnDate",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 781998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user selects \"1\" adults, \"0\" seniors and \"0\" children",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:56"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1595491598,
+              "error_message": "locator.click: Error: strict mode violation: locator('//button[@amt-auto-test-id=\\'traveler-dropdown-button\\']') resolved to 2 elements:\n    1) <button ambtn=\"\" aria-haspopup=\"true\" _ngcontent-ng-c3113502619=\"\" amt-auto-test-id=\"traveler-dropdown-button\" aria-label=\"1 Traveler Add travelers and discounts\" class=\"traveler-dropdown-button am-btn ng-star-inserted\">…</button> aka getByRole('button', { name: '1 Traveler Add travelers and' })\n    2) <button ambtn=\"\" aria-haspopup=\"true\" _ngcontent-ng-c3113502619=\"\" amt-auto-test-id=\"traveler-dropdown-button\" aria-label=\"1 Traveler Add travelers and discounts\" class=\"traveler-dropdown-button am-btn ng-star-inserted\">…</button> aka getByLabel('Traveler Add travelers and discounts').nth(1)\n\nCall log:\n\u001b[2m  - waiting for locator('//button[@amt-auto-test-id=\\'traveler-dropdown-button\\']')\u001b[22m\n\n    at HomePage.selectTravellers (D:\\PlaywrightAmtrak\\pages\\HomePage.js:109:31)\n    at CustomWorld.<anonymous> (D:\\PlaywrightAmtrak\\features\\step-definitions\\bookTicket.steps.js:60:20)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user selects disability option",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks search",
+            "match": {
+              "location": "features\\step-definitions\\bookTicket.steps.js:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 941363599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "amtrak-ticket-booking",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Amtrak Ticket Booking",
+    "tags": [],
+    "uri": "features\\bookTicket.feature"
+  }
+]

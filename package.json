@@ -1,0 +1,29 @@
+{
+  "name": "playwrightamtrak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "cucumber-js --format json:reports/cucumber-report.json",
+  "report": "node reports/report.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "multiple-cucumber-html-reporter": "^3.10.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.59.1",
+    "playwright-core": "^1.59.1",
+    "undici-types": "^7.19.2"
+  }
+}
