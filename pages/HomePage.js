@@ -57,7 +57,7 @@ class HomePage {
          //await this.multiCitiesFrom.nth(0).waitFor({
         //state: "visible"});
     }
-
+    //
     async enterFrom(location1,location2) {
         if (this.tripType === "multicity") {
       //  await this.multiCitiesFrom.nth(0).waitFor({ state: "visible" });
