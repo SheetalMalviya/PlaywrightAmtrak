@@ -42,7 +42,7 @@ class HomePage {
         });
         await this.allowAllButton.click();;
     }
-    
+    //Page actions for selecting trip types
     async selectRoundTrip() {
         await this.travelSelection.click();
         await this.roundTrip.click();
