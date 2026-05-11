@@ -34,7 +34,7 @@ class HomePage {
         this.multiCitiesTo2=this.page.locator("#am-form-field-control-34");
 
     }
-
+//Page actions
     async navigate() {
         await this.page.goto("https://aemstage.amtrak.com/home", {
             waitUntil: "domcontentloaded",   // or "commit"
