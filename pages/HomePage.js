@@ -3,6 +3,7 @@ const { setDefaultTimeout } = require("@cucumber/cucumber");
 setDefaultTimeout(60 * 1000); // 60 seconds
 class HomePage {
     constructor(page) {
+        //homepage locators
         this.page = page;
         this.tripType = "oneway";
         this.allowAllButton = this.page.locator("#onetrust-accept-btn-handler");
